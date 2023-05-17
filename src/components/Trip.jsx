@@ -11,7 +11,7 @@ import img7 from "../assets/explorekoraput6.jpg";
 const Trip = () => {
   return (
     <div className="trip">
-      <h1>Recent Trips</h1>
+      <h1>Recent Tours</h1>
       <p>You Can Discover Unique Destination, Stay Connected With Us ❤️</p>
       <div className="tripcard">
         <TripData

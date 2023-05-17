@@ -40,6 +40,10 @@
     padding-bottom: 0.4rem;
     font-size: 1.1rem;
 }
+.bottom a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
 
 @media screen and (max-width:850px) {
     .footer{

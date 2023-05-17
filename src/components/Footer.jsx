@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,46 +11,52 @@ const Footer = () => {
           <p>Choose Your Faviorite Destination</p>
         </div>
         <div>
-          <a href="/">
+          <Link href="/">
             <i className="fa-brands fa-facebook-square"></i>
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             <i className="fa-brands fa-instagram-square"></i>
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             <i className="fa-brands fa-twitter-square"></i>
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             <i className="fa-brands fa-github-square"></i>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="bottom">
         <div>
-          <h4>Project</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Status</a>
-          <a href="/">License</a>
-          <a href="/">All Version</a>
+          <h4><u>Explore Koraput</u></h4>
+          <Link href="/">About Us</Link>
+          <Link href="/">Photos</Link>
+          <Link href="/">Events</Link>
+          <Link href="/">Activities</Link>
+          <Link href="/">Community</Link>
+          <Link href="/">Blogs</Link>
+          <Link href="/">Contact Us</Link>
         </div>
         <div>
-          <h4>Community</h4>
-          <a href="/">GitHub</a>
-          <a href="/">Issues</a>
-          <a href="/">Project</a>
-          <a href="/">Twitter</a>
+          <h4><u>Tour Packages</u></h4>
+          <Link href="/">Chitrakoot & Tirathgarh</Link>
+          <Link href="/">Tribal Tours</Link>
+          <Link href="/">Camping Packages</Link>
+          <Link href="/">Araku Valley</Link>
+          <Link href="/">Koraput Valley</Link>
         </div>
         <div>
-          <h4>Help</h4>
-          <a href="/">Support</a>
-          <a href="/">Troubleshooting</a>
-          <a href="/">Contact Us</a>
+          <h4><u>Events</u></h4>
+          <Link href="/">Parab Koraput</Link>
+          <Link href="/">Ratha Yatra</Link>
+          <Link href="/">Chaitra Parab</Link>
         </div>
         <div>
-          <h4>Others</h4>
-          <a href="/">Terms of Service</a>
-          <a href="/">Privacy Policy</a>
-          <a href="/">License</a>
+          <h4><u>Top Destination</u></h4>
+          <Link href="/">Gupteshwar</Link>
+          <Link href="/">Deomali</Link>
+          <Link href="/">Duduma Waterfall</Link>
+          <Link href="/">Punjisil Waterfall</Link>
+          <Link href="/">Sabara Srikhetra</Link>
         </div>
       </div>
     </div>

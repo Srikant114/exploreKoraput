@@ -5,14 +5,14 @@ import img3 from '../assets/explorekoraput2.jpg'
 import Trip from '../components/Trip'
 import Footer from '../components/Footer'
 
-const Services = () => {
+const Tours = () => {
   return (
     <>
       <Navbar />
       <Bgimg
         cName="bgImg-mid"
         bgimg={img3}
-        title="Services"
+        title="Tours"
         btnClass="hide"
       />
       <Trip/>
@@ -21,4 +21,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Tours
